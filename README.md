@@ -1,0 +1,3 @@
+- Download the repositories from https://github.com/DeepSoftwareAnalytics/RepoTransBench and put them in the `repos` directory.
+- Each repo contains a `.git` that might confuse your editor. Execute `remove_git_info.sh` to remove them all and maybe restart your editor.
+- Install uv and run the script with `uv run count-tokens.py`
